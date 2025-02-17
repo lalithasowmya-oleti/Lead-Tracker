@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+input{
+    width: 100%;
+    margin-bottom: 4px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #5f9341;
+    box-sizing: border-box; /*we are sizing the box to borders bcz width takes 100%+10px+10px
+    if we add box-sizing to border-box it takes only 100% width not padding*/
+}
+button{
+    background-color: #5f9341;
+    color: white;
+    width:150px;
+    padding: 10px 20px; 
+    font-weight: bold;
+    border: 1px solid #5f9341;
+}
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none; /*to remove .*/
+    padding-left: 0;
+}
+li{
+    margin-top: 5px;
+}
+a{
+    color: #5f9341;
+}
